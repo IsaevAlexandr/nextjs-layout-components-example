@@ -5,7 +5,7 @@ import { Flex, Container } from '@gravity-ui/uikit/unstable_layout'
 
 export default function FlexGapPage() {
     return (
-        <Page prevExample='/flexSpace' nextExample="/">
+        <Page prevExample='/flexSpace' nextExample="/activeMediaQuery">
             <Container>
                 <Flex direction='column' gap>
                     <Flex space={mm => mm('l') ? 'xl' : 'micro'} direction={mm => mm('l') ? 'column' : 'row'}>
