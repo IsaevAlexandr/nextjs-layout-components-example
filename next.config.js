@@ -1,6 +1,8 @@
+const withTM = require("next-transpile-modules")(["@gravity-ui/uikit"]);
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = withTM(nextConfig);

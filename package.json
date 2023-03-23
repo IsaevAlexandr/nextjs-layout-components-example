@@ -18,5 +18,11 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@gravity-ui/prettier-config": "^1.0.1",
+    "@gravity-ui/uikit": "^4.3.0",
+    "next-transpile-modules": "^10.0.0",
+    "prettier": "^2.8.6"
   }
 }
